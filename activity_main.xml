@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- TextView to display persistent message -->
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a persistent TextView message."
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to trigger both TextView and Toast message -->
+    <Button
+        android:id="@+id/buttonShowMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Message"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- TextView to display dynamic message -->
+    <TextView
+        android:id="@+id/textViewDynamicMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press the button to see messages."
+        android:textSize="18sp" />
+
+</LinearLayout>
